@@ -1,0 +1,143 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+/* to make the background of the first section in this colour and any text on this section in white  */
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/*  to make all the element in first section in same container allighn down 3% and alighn left&right=15%  */
+.container {
+  padding: 3% 15%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto";
+}
+
+h1,
+h2 {
+  font-size: 4.5rem;
+  line-height: 1.5;
+}
+
+.navbar {
+  margin-bottom: 4.5rem;
+}
+
+/* to resize the size of brand funny dog  */
+.navbar-brand {
+  font-family: "Roboto";
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+/* to put space between home and support and contact   */
+.nav-item {
+  padding: 0 30px;
+}
+
+/* to change the size of navbar element : home & support& contact   */
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Roboro";
+}
+
+/* download buuton to put an  space between download button  */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* to change the size of image of iphone image */
+.title-image {
+  width: 50%;
+  transform: rotate(30deg);
+}
+
+#features {
+  padding: 7% 13%;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+.icon {
+  color: #e20a2b;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: black;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: aliceblue;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.doggyimg {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 4%;
+}
+
+.logopress {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pric-column {
+  padding: 4% 8%;
+}
+
+#cta {
+  background-color: #e20a2b;
+  color: white;
+  padding: 4% 10%;
+  font-family: "Roboro";
+}
+
+#footer {
+  padding: 4% 10%;
+  font-size: 20px;
+  font-family: "Roboro";
+}
+
+.social-icon {
+  margin: 15px 20px;
+}
